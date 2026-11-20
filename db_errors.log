@@ -1,0 +1,18 @@
+2026-11-17 21:03:47,578 - Error connecting to MySQL: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2026-11-17 23:33:12,139 - Database Error: 1062 (23000): Duplicate entry '000000000' for key 'patients.phone' | Query: INSERT INTO patients (full_name, dob, gender, phone, address, blood_group, emergency_contact) 
+                   VALUES (%s, %s, %s, %s, %s, %s, %s)
+2026-11-17 23:34:38,536 - Database Error: 1062 (23000): Duplicate entry '000000000' for key 'patients.phone' | Query: INSERT INTO patients (full_name, dob, gender, phone, address, blood_group, emergency_contact) 
+                   VALUES (%s, %s, %s, %s, %s, %s, %s)
+2026-11-18 20:54:37,273 - Database Error: 1062 (23000): Duplicate entry 'Ramesh' for key 'users.username' | Query: INSERT INTO users (username, password_hash, role, full_name) 
+                        VALUES (%s, %s, 'Doctor', %s)
+2026-11-19 13:55:20,419 - Database Error: 1525 (HY000): Incorrect DATE value: '2026-11-2026' | Query: SELECT COUNT(*) as count FROM appointments WHERE doctor_id = %s AND appointment_date = %s AND time_slot = %s AND status != 'Cancelled'
+2026-11-19 13:55:29,634 - Database Error: 1525 (HY000): Incorrect DATE value: '2026-11-2026' | Query: SELECT COUNT(*) as count FROM appointments WHERE doctor_id = %s AND appointment_date = %s AND time_slot = %s AND status != 'Cancelled'
+2026-11-19 13:55:40,395 - Database Error: 1525 (HY000): Incorrect DATE value: '2026-11-2026' | Query: SELECT COUNT(*) as count FROM appointments WHERE doctor_id = %s AND appointment_date = %s AND time_slot = %s AND status != 'Cancelled'
+2026-11-19 13:55:46,775 - Database Error: 1525 (HY000): Incorrect DATE value: '2026-11-2026' | Query: SELECT COUNT(*) as count FROM appointments WHERE doctor_id = %s AND appointment_date = %s AND time_slot = %s AND status != 'Cancelled'
+2026-11-19 13:55:59,295 - Database Error: 1525 (HY000): Incorrect DATE value: '2026-11-2026' | Query: SELECT COUNT(*) as count FROM appointments WHERE doctor_id = %s AND appointment_date = %s AND time_slot = %s AND status != 'Cancelled'
+2026-11-19 13:56:10,998 - Database Error: 1525 (HY000): Incorrect DATE value: '2026-11-2026' | Query: SELECT COUNT(*) as count FROM appointments WHERE doctor_id = %s AND appointment_date = %s AND time_slot = %s AND status != 'Cancelled'
+2026-11-19 13:56:26,666 - Database Error: 1525 (HY000): Incorrect DATE value: '2026-11-2026' | Query: SELECT COUNT(*) as count FROM appointments WHERE doctor_id = %s AND appointment_date = %s AND time_slot = %s AND status != 'Cancelled'
+2026-11-19 13:56:44,912 - Database Error: 1525 (HY000): Incorrect DATE value: '2026-11-2026' | Query: SELECT COUNT(*) as count FROM appointments WHERE doctor_id = %s AND appointment_date = %s AND time_slot = %s AND status != 'Cancelled'
+2026-11-19 13:56:54,010 - Database Error: 1525 (HY000): Incorrect DATE value: '2026-11-2026' | Query: SELECT COUNT(*) as count FROM appointments WHERE doctor_id = %s AND appointment_date = %s AND time_slot = %s AND status != 'Cancelled'
+2026-11-20 09:17:59,781 - Database Error: 1062 (23000): Duplicate entry '9116317017' for key 'patients.phone' | Query: INSERT INTO patients (full_name, dob, gender, phone, address, blood_group, emergency_contact) 
+                   VALUES (%s, %s, %s, %s, %s, %s, %s)
